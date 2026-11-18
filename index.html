@@ -331,6 +331,12 @@
     color: rgba(255,255,255,.9);
     box-shadow: 0 0 80px rgba(124,58,237,.25);
   }
+  .avatar-box img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    display: block;
+  }
 
   .avatar-box::after {
     content: "";
@@ -607,7 +613,9 @@
       </div>
     </div>
 
-    <div class="avatar-box reveal"></div>
+    <div class="avatar-box reveal">
+      <img src="avatrr.jpg"/>      
+    </div>
   </div>
 </section>
 
@@ -618,7 +626,6 @@
     <h2>精選作品</h2>
     <p class="section-desc">每個專案都代表一次對細節的堅持。</p>
   </div>
-
   <div class="projects">
     <article class="card reveal">
       <div class="num">PROJECT 01</div>
